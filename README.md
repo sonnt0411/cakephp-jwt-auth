@@ -16,7 +16,7 @@ specification in detail [here](https://tools.ietf.org/html/draft-ietf-oauth-json
 ## Installation
 
 ```sh
-composer require admad/cakephp-jwt-auth
+composer require sonnt/cakephp-jwt-auth
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ In your app's `config/bootstrap.php` add:
 
 ```php
 // In config/bootstrap.php
-Plugin::load('ADmad/JwtAuth');
+Plugin::load(‘Sonnt/JwtAuth');
 ```
 
 or using cake's console:
@@ -47,7 +47,7 @@ Setup `AuthComponent`:
         $this->loadComponent('Auth', [
             'storage' => 'Memory',
             'authenticate' => [
-                'ADmad/JwtAuth.Jwt' => [
+                ‘Sonnt/JwtAuth.Jwt' => [
                     'userModel' => 'Users',
                     'fields' => [
                         'username' => 'id'
