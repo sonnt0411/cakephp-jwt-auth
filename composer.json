@@ -20,7 +20,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            “Sonnt\\JwtAuth\\Test\\": "tests",
+            "Sonnt\\JwtAuth\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
