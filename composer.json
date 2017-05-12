@@ -22,5 +22,8 @@
         "psr-4": {
             "Sonnt\\JwtAuth\\Test\\": "tests"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
     }
 }
